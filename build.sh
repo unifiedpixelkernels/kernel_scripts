@@ -24,5 +24,5 @@ export OUT_DIR="${ROOT}/out/${CODENAME}-outputs"
 chrt -bp 0 $$
 
 pushd "${ROOT}"
-eval ${!CODENAME}
+time eval ${!CODENAME}
 popd
